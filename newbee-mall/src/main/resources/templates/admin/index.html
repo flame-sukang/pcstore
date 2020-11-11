@@ -1,0 +1,58 @@
+<!-- Copyright (c) 2019-2020 十三 all rights reserved. -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<header th:replace="admin/header::header-fragment"></header>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+    <!-- 引入页面头header-fragment -->
+    <div th:replace="admin/header::header-nav"></div>
+    <!-- 引入工具栏sidebar-fragment -->
+    <div th:replace="admin/sidebar::sidebar-fragment(${path})"></div>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- Main content -->
+        <div class="content">
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <h3 class="card-title">首页</h3>
+                </div> <!-- /.card-body -->
+                <div class="card-body">
+                    <div class="panel panel-default">
+                        <div style="padding: 10px 0 20px 10px;">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;江苏春兰制冷设备股份有限公司是专业生产、制造、销售空调器的国家大型企业，是春兰（集团）公司的骨干企业之一。
+                                春兰股份于1994年4 月25日在上海证券交易所挂牌交易，公司在以生产制造空调器为主的同时，注重资本运作，实施多元化战略，
+                                通过投资控股、参股等形式建成了多家高科技企业，产业涵盖制冷产品、空调压缩机、机械制造、电力、房地产等多个领域。江苏春兰电子商务有限公司是江苏春兰制冷
+                                设备股份有限公司子公司，是春兰（集团）公司的大型专业营销公司，主要从事春兰家用空调、春兰中央空调等家电类产品在国内的销售、仓储、物流、售后服务等业务。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;公司座落于江苏省泰州市海陵区春兰工业园区，1973年开始生产空调，是中国专业制造空调历史最为悠久的企业之一。
+                                春兰始终致力于空调核心技术的研发，拥有世界 级的空调设计、制造和检测平台，引领中国空调跨入智能、节能、健康、舒 适、时尚新时代。
+                                近50年来，春兰不仅创造了空调业的辉煌历史，而且凭借“科技创新”理念，续写着 持续发展的卓越篇章。
+                                经过多年的高速发展，目前公司已建立遍布全国的营销网络、售后服务网络和物流配送网络。公司弘扬“执行、合作、创新”的春兰精神，坚持“贴近市场，
+                                快速 反应，加强对抗，保持弹性，灵活机动”的市场战略方针，
+                                内设400售后服务热线中心，向广大客户提供7×24小时全天候一站式金牌服务，努力提高市场竞争力。
+                                春兰始终坚持以顾客为中心的经营理念，竭诚向顾客提供优质、可靠、节能、环保的产品和服务，充分履行社会责任，推动行业发展，构筑友好、和谐企业，促进资本增值，造福于人类社会。</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <!-- 引入页脚footer-fragment -->
+    <div th:replace="admin/footer::footer-fragment"></div>
+</div>
+<!-- jQuery -->
+<script th:src="@{/admin/plugins/jquery/jquery.min.js}"></script>
+<!-- jQuery UI 1.11.4 -->
+<script th:src="@{/admin/plugins/jQueryUI/jquery-ui.min.js}"></script>
+<!-- Bootstrap 4 -->
+<script th:src="@{/admin/plugins/bootstrap/js/bootstrap.bundle.min.js}"></script>
+<!-- AdminLTE App -->
+<script th:src="@{/admin/dist/js/adminlte.min.js}"></script>
+</body>
+</html>
